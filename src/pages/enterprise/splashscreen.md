@@ -7,7 +7,7 @@ minor: 5.0.X
 
 The Splash Screen plugin provides control options for displaying and hiding a splash screen, commonly during application launch.
 
-<native-ent-install plugin-id="splashscreen" variables=""></native-ent-install>
+<native-ent-install plugin-id="splashscreen" variables="" capacitor="false"></native-ent-install>
 
 ### Preferences
 
@@ -59,22 +59,7 @@ You can add the following preferences in your `config.xml`:
 
 #### Using Preferences in Capacitor
 
-You can add the following preferences in your `capacitor.config.json`:
-
-```
-"cordova": {
-  "preferences": {
-    "AutoHideSplashScreen": "true",
-    "SplashScreenDelay": "3000",
-    "FadeSplashScreen": "false",
-    "FadeSplashScreenDuration": "750",
-    "ShowSplashScreenSpinner": "false",
-    "SplashMaintainAspectRatio": "true",
-    "SplashShowOnlyFirstTime": "true",
-    "SplashScreenSpinnerColor": "white"
-  }
-}
-```
+This plugin is not compatible with Capacitor. Use Capacitor's [Splash Screen plugin](https://capacitor.ionicframework.com/docs/apis/splash-screen) instead.
 
 ## Index
 
