@@ -23,7 +23,7 @@ nextUrl: '/docs/faq/build'
   </section>
 
   <section id="bundling">
-    <a href="#bundling"><h3>Bundling</h3></a>
+    <a href="#bundling"><h3>Bundldding</h3></a>
     <p>Bundling is the process of taking an app's dependencies (code you've written plus any npm modules installed) and compiling/transpiling them down to one single file.</p>
   </section>
 
